@@ -1,0 +1,691 @@
+++++++++HTML Area note++++++++
+https://mdbootstrap.com/snippets/jquery/ascensus/28?action=full_screen_mode
+https://www.shutterstock.com/search/apolonia
+http://www.banjomanweb.com/WDV101%20HTML/Chap4/case3/power.htm
+https://gist.github.com/bradtraversy/f407d642bdc3b31681bc7e56d95485b6
+https://afternoon-oasis-79332.herokuapp.com/
+https://www.softwarelab.it/2018/10/12/adding-an-existing-project-to-github-using-the-command-line/ (github editing existing project)
+ C:\Users\Shop\my-app.(react location)
+https://www.youtube.com/watch?v=soaG3GNSxJY (deployemtn )
+https://www.image-map.net/  (code area generator)
+https://www.designhill.com/tools/image-resizer  ( image resizer)
+https://pinetools.com/resize-image
+https://css-tricks.com/
+https://paletton.com/#uid=14e0u0kllllaFw0g0qFqFg0w0aF
+media queries for standard devices(https://css-tricks.com/snippets/css/media-queries-for-standard-devices/#phone-queries)
+https://zerotomastery.io/resources/ (template)
+https://www.creative-tim.com/(template)
+http://www.mashup-template.com/
+https://www.appbrewery.co/p/web-development-course-resources/    (angela ressource )
+https://icons8.com/icons  (free icons)
+https://docs.google.com/document/d/1_g8qFqgfz9Qlk3V5240e4rds2WhYY5blKrMl8ai4nVY/edit?usp=sharing (resume)
+https://autoprefixer.github.io/ (Autoprefixer--css code works with all browsers)
+http://pleeease.io/play/        (Autoprefixer--css code works with all browsers)
+
+
+https://github.com/nax3t/webdevbootcamp/tree/master/YelpCamp/Final  (colt steel)
+https://sdras.github.io/array-explorer/
+https://sdras.github.io/object-explorer/
+C:\Program Files\MongoDB\Server\4.2\data\ (mongodb path )
+**attribute is anything that is colored orange in sublimetext such as class; href; id etc...
+**we use ready on jquery if we put the jquery script tag in the header but if we put all the wat down in our page we dont have to specify the ready. the on() methode can take any eventlistiner such as keypress, click, mouseover etc...
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+https://getbootstrap.com/docs/3.3/
+unsplash.com
+++++++++++++++++++++++
+user_name = jsmith
+password = 12345
+8cb2237d0679ca88db6464eac60da96345513964
++++++++++++++++++++
+user_name = sjean
+password = student
+204036a1ef6e7360e536300ea78c6aeb4a9333dd
+++++++++++++++++unclud javascript in your html file +++++++++++++++
+<script type="text/javascript" src="path-to-javascript-file.js"></script>
+
+.classlist.toggle(class you defined )
+.classlistadd(class you defined)
+document.querySelector("input");
+++++++++++++
+https://getbootstrap.com/docs/4.0/components/navbar/
+
+toggle---vas et viens 
+++++++cit 155 project solution++++++
+
+http://www.banjomanweb.com/
+
+GoormIDE
+++++++demo++++
+
+++++++CIT 271++++++++++++
+
+U2A1
+
+U2A2
+
+U2A3
+
+U2A4
+
+
+Module 1 Unit 1 Quiz
++++++++++++++++
+
+INSERT INTO Persons (PersonID, LastName, FirstName,Address, City)
+VALUES (1, 'Erichsen', 'Tom', '21 Skagen','Norway');
++++++++++++++++++++++++++
+https://www.youtube.com/watch?v=6CYTQm-6t9w
+
+const express = require('express')
+const app = express()
+ 
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+ 
+app.listen(process.env.PORT, process.env.IP, () =>{
+console.log("Server has started!!")
+});
+++++++++++++++++++++
+C:\Program Files\Java\jdk-13.0.2\bin
+++++
+https://www.scratchspace.com/wp-content/uploads/Santa_Cruz_App_Dev_Fall_Intern_Letters.pdf
+++++++++++++++++++++++++++++++++++++++++++web dev bootcamp note ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://jsoneditoronline.org/
+https://www.json-generator.com/#
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+***to make express to search for a directory you have to use
+ app.use(express.static(the name of the directory))
+It will not search for any directory expect of the view directory.
+
+*** to display express in html we have to use resrender("htmlfile(ejs)", {variableinhtmfile: variableinexpressfile})
+
+***we have to create a partials to make our code dry. Creer a new directory(folder) named partials in views and creer two file ejs, header.ejs(what we want on every page on top) and footer.ejs( what we want on the bottom of the every page).
+we gonna ad the patials to the regular ejs files by using
+    <%- include("partials/header") %>
+
+    <%- include("partials/footer") %>
+
+***app.set("view engine", "ejs") help us so we dont have to repite ejs on every file in express file.
+
+*** we can install body-parser --save(to store the values of input form in the body whenever the user fillout a form we some information. it will retur a object. then we gonna require it and tell express to use body parser.
+ var bodyparser= require("body-parser") 
+app.use(bodyParser.urlencoded({extended:true}))
+
+console.log(req.body) we give us a object
+
+***we can use res.redirect("/friends") to redirect the page whenever the user ad  something to the page.
+
+*** We can convert string to a object using  var data =JSON.parse(body) where data is the variable and body is the string.
+
+***req.query.thenameoftheform help us retrive data from the form
+***style="display:flex-wrap; flex-wrap:wrap;"
+
+<div class="thumbnail">
+			<img src="<%= data[i].image %>">
+                        <h4><%= data[i].name %> </h4>
+			</div>
+
+https://www.programiz.com/java-programming/hashset
+
+
+
+username rcchadrac
+5025412849 password for mongodb
+
+
+
++++++++++++++++++++++++++++++++++++++++++
+https://www.dofactory.com/sql/where-like
+https://code.tutsplus.com/articles/sql-for-beginners-part-3-database-relationships--net-8561
+https://www.sqlservertutorial.net/sql-server-stored-procedures/sql-server-if-else/#
+https://www.geeksforgeeks.org/sql-group-by/++++
++++++++++++++++++++++++++++++++++
+http://www.banjomanweb.com/WDV101%20HTML/Chap4/case3/power.htm
+https://www.pdfdrive.com/
++++++++++++++++++++++++TRANSFER INFORMATION NKU+++++++++++++++++
+
+
+1. If you click on the list item, it toggles the .done  class on and off.
+
+2. Add buttons next to each list item to delete the item when clicked on its corresponding delete button.
+
+3. BONUS: When adding a new list item, it automatically adds the delete button next to it (hint: be sure to check if new items are clickable too!)
+
+
+document.getElementById("myDIV").classList.toggle("newClassName"); 
+
+var li = document.createElement("li");
+
+document.querySelectorAll("li").classList.toggle("done"); 
+
+var allli = document.querySelectorAll("li");
+firstListIem.removeChild(li);
+
+++++++++++++++++test+++++++++++++++++++++
+
+UDEAFFCCA0220 udemy coupon code
+
+++++++++++++++++++++++++++++++++++++++++++++
+background-genetor
+git clone https://github.com/regisadjihou/background-genetor.git (to create folder and communicate with github)
+copy and past the project in the new folder
+git status
+git name of each file you want to each 
+git status
+git commit -m "anything you want to tell to the team when they come on the project on gethub"
+git push
+
++++
+get pull 
+++++
+get clone (to get the sample file )
+wynter lvonne
+wynterlavonne789@gmail.com
+
++++++github+++++
+*git remoye add upstream link from the main project respiratory(not our respiratory)(it will help us to get the copy update of the original copy)
+*git fetch upstream (it will help us to tell our local respiratory to get a update from our gethub respiratory)
+* git branch --set-upstream-to=upstream/master master
+
+
+https://egghead.io/lessons/javascript-how-to-create-a-pull-request-on-github
+++++++++++++
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html
++++++++++++++++
+ctrl + / uncomment
+406407401d945347797bcf9e35ec9b0f
+https://api.openweathermap.org/data/2.5/weather?zip=40214,us&units=metric&appid=406407401d945347797bcf9e35ec9b0f
+
+
+nodejs.org/api/https.html
+
+
+
+http://www.dragiev.net/
+https://mailchimp.com/developer/guides/get-started-with-mailchimp-api-3/#Code_example
+
++++++++++++++++++++++++++++
+const data = [
+{name:"Sunset", image:"https://www.sma-summers.com/hs-fs/hub/158966/file-2472510055-jpg/Small_Summer_Camp_Page/Small-Teen-Summer-Camp.jpg?width=395&name=Small-Teen-Summer-Camp.jpg"},
+{name:"Beach", image:"https://www.sma-summers.com/hs-fs/hub/158966/file-2472510055-jpg/Small_Summer_Camp_Page/Small-Teen-Summer-Camp.jpg?width=395&name=Small-Teen-Summer-Camp.jpg"},
+{name:"Nature", image:"https://www.sma-summers.com/hs-fs/hub/158966/file-2472510055-jpg/Small_Summer_Camp_Page/Small-Teen-Summer-Camp.jpg?width=395&name=Small-Teen-Summer-Camp.jpg"},
+	{name:"Nature", image:"https://www.sma-summers.com/hs-fs/hub/158966/file-2472510055-jpg/Small_Summer_Camp_Page/Small-Teen-Summer-Camp.jpg?width=395&name=Small-Teen-Summer-Camp.jpg"},
+	{name:"Nature", image:"https://www.sma-summers.com/hs-fs/hub/158966/file-2472510055-jpg/Small_Summer_Camp_Page/Small-Teen-Summer-Camp.jpg?width=395&name=Small-Teen-Summer-Camp.jpg"},
+	{name:"Nature", image:"https://www.sma-summers.com/hs-fs/hub/158966/file-2472510055-jpg/Small_Summer_Camp_Page/Small-Teen-Summer-Camp.jpg?width=395&name=Small-Teen-Summer-Camp.jpg"},
+	{name:"Nature", image:"https://www.sma-summers.com/hs-fs/hub/158966/file-2472510055-jpg/Small_Summer_Camp_Page/Small-Teen-Summer-Camp.jpg?width=395&name=Small-Teen-Summer-Camp.jpg"},
+	{name:"Nature", image:"https://www.sma-summers.com/hs-fs/hub/158966/file-2472510055-jpg/Small_Summer_Camp_Page/Small-Teen-Summer-Camp.jpg?width=395&name=Small-Teen-Summer-Camp.jpg"}
+]
+
+
+
+res.redirect('/campground')
+
+
+Campground.create(
+{
+	name: "Sunset",
+	image: urlimg
+}, 
+function(err, Sunsetcamp){
+	if(err){
+		console.log(err)
+	} else{
+		console.log("success")
+		
+	}
+}
+
+)
+
+
+
+
+
+Blog.create(
+{
+  title: "Test blog",
+  image: "https://www.sma-summers.com/hs-fs/hub/158966/file-2472510055-jpg/Small_Summer_Camp_Page/Small-Teen-Summer-Camp.jpg?width=395&name=Small-Teen-Summer-Camp.jpg",
+  body: "This is the blog post"
+  
+}, 
+function(err, Sunsetcamp){
+	if(err){
+		console.log(err)
+	} else{
+		console.log("success")
+		
+	}
+}
+
+)
+
+<div class="ui main text container segment">
+<div class="ui huge header">New Blog</div>
+</div>
+
+
+ <label>Text</label>
+    <textarea rows="5"></textarea>
+
++++++++Authentification+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+const session = require('express-session');
+const passport = require("passport");
+const passportLocalMongoose = require("passport-local-mongoose");
+const LocalStrategy = require("passport-local")
+
+app.use(session({
+  secret: "Our little secret.",
+  resave: false,
+  saveUninitialized: false
+}));
+
+
+app.use(passport.initialize());
+app.use(passport.session());
+passport.use(new LocalStrategy(User.authenticate()))
+
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.derializeUser());
+
+
+mongodbconnect                                    //
+
+const userSchema = new mongoose.Schema ({
+  email: String,                                 ///
+  password: String,
+  googleId: String,
+  secret: String
+});
+
+
+
+userSchema.plugin(passportLocalMongoose);
+
+
+
+const User = new mongoose.model("User", userSchema); //
+
+passport.use(User.createStrategy());
+
+
+
+
+
+app.post("/register", function(req, res){
+
+  User.register({username: req.body.username}, req.body.password, function(err, user){
+    if (err) {
+      console.log(err);
+      res.redirect("/register");
+    } else {
+      passport.authenticate("local")(req, res, function(){
+        res.redirect("/secrets");
+      });
+    }
+  });
+
+});
+
+
+
+app.post("/login", function(req, res){
+
+  const user = new User({
+    username: req.body.username,
+    password: req.body.password
+  });
+
+  req.login(user, function(err){
+    if (err) {
+      console.log(err);
+    } else {
+      passport.authenticate("local")(req, res, function(){
+        res.redirect("/secrets");
+      });
+    }
+  });
+
+});
+
+
+
+app.get("/logout", function(req, res){
+  req.logout();
+  res.redirect("/");
+});
+
+
+app.get("/submit", function(req, res){
+  if (req.isAuthenticated()){
+    res.render("submit");
+  } else {
+    res.redirect("/login");
+  }
+});
+
+++++++
+
+app.post("/login", passport.authenticate("local",
+    {   
+         successRedirect:"/campground",
+         failureRedirect: "/login"
+
+    }), function(req, res){
+
+})
+
+
+
+function isLoggedIn(req, res, next){
+  if (req.isAuthenticated()){
+    return next();
+  }
+  res.redirect("/login")
+
+}
+
+++++++++++++++tax info ++++++++++++++++++++
+federal 1120
+state 108
+
+total : 23555 
+
+++++++++++++++++++++++++++++++++++++++++++++++
+router.get('/', function (req, res) {
+  res.render("home")
+}
+12.16.0
++++++++++++++++++++++++++++++++++++++++++++++
+C:\mongodb-win
+admin-regis
+cotonouville
+
+
+https://mighty-forest-14019.herokuapp.com/
+++++++++++++++++++++++++++++++++++++++++++++
+const methodOverride = require('method-override')
+app.use(methodOverride('methodOverride'))
+
++++++++++++++++++++++++++++++++++++++++++++++++
+AIzaSyCpJ5E238AhL4m2sl9ZNQPwF9W0tD1VaEU
++++++++++++++++++
+
+api key 
+
+export GEOCODER_API_KEY=AIzaSyBcsLOimNTsqs2XszGbBATY99vVoXaqiVo
+AIzaSyBcsLOimNTsqs2XszGbBATY99vVoXaqiVo
+
+++++++++++++++++++++++++++++++
+
+//POST request for the form 
+router.post('/',middleware.isLoggedIn, function (req, res) {
+const dataName = req.body.name
+const dataImage = req.body.image
+const dataDesc = req.body.description
+const price = req.body.price
+const author = {
+  id:req.user._id,
+  username: req.user.username
+}
+const dataUser = {name:dataName,image:dataImage,price:price,description:dataDesc, author:author}
+
+Campground.create(dataUser, 
+function(err, newcreate){
+	if(err){
+		console.log(err)
+	} else{
+		res.redirect('/campground')
+		console.log("success")
+		}
+})
+
+})
+
+++++++++++++++++++++++++++++++++++++++++++
+//update campground route
+router.put("/:id", middleware.checkCampgroundOwnership ,function(req, res){
+Campground.findByIdAndUpdate(req.params.id, req.body.campground, function(err,updatedcampground){
+if (err){
+  console.log(err)
+  res.redirect("/campground")
+} else {
+  res.redirect("/campground/" + req.params.id);
+}
+})
+})
+
+Yosemite National Park, California, USA
+
+
++++++new+++++++++++
+
+
+<%- include("../partials/header") %>
+
+
+<h1 class="text-center">
+	Create a New Campground
+</h1>
+<!-- ADD New Camp picture form -->
+<div style="width: 25% ; margin: 0 auto ;">
+	
+	<form class="text-center" action="/campground" method="POST">
+  <div class="form-group">
+    <input type="text" class="form-control" name="name" placeholder="Name" >
+  </div>
+
+  <div class="form-group">
+    <input type="number" class="form-control" name="price" placeholder="Price" min="0.01" step="0.01">
+  </div>
+
+  <div class="form-group">
+    <input type="text" class="form-control" name="image" placeholder="Img Url">
+  </div>
+
+    <div class="form-group">
+    <input type="text" class="form-control" name="description" placeholder="description">
+  </div>
+
+<div class="form-group">
+    <label for="location">Location</label>
+    <input class="form-control" type="text" name="location" id="location" placeholder="Yosemite National Park, CA">
+</div>
+  
+
+<input class="btn-primary btn-lg btn-block" type="submit"  value="Submit">
+</form>
+<a href='/campground'>Go back</a>	
+</div>
+
+<div class="text-center"><%- include("../partials/footer") %></div>
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+router.post("/", middleware.isLoggedIn, upload.single('image'),function(req, res){
+  // get data from form and add to campgrounds array
+const dataName = req.body.name
+const dataImage = req.body.image
+const dataDesc = req.body.description
+const price = req.body.price
+  const author = {
+      id: req.user._id,
+      username: req.user.username
+  }
+  geocoder.geocode(req.body.location, function (err, data) {
+    if (err || !data.length) {
+      req.flash('error', 'Invalid address');
+      console.log(err)
+      return res.redirect('back');
+    }
+    const lat = data[0].latitude;
+    const lng = data[0].longitude;
+    const location = data[0].formattedAddress;
+    const dataUser = {name: dataName, image:dataImage,price:price, description:dataDesc, author:author, location: location, lat: lat, lng: lng};
+    // Create a new campground and save to DB
+    Campground.create(dataUser, function(err, newcreate){
+        if(err){
+            console.log(err);
+        } else {
+            //redirect back to campgrounds page
+            res.redirect("/campground");
+        }
+    });
+  });
+});
+
++++++++++++++++++
+
+
+<div class="">
+<div class="container1">	
+<div class="jumbotron-text mt-5 text-center">
+<h1>Welcome to YelpCamp!</h1>
+<h4>View our hand-picked campgrounds from all over the world</h4>
+<a class="btn btn-primary" href="/campground/new" role="button">Add New Campground</a>
+</div>
+</div>
+
+<div class="container row " style="display:flex-wrap; flex-wrap:wrap;">
+	<% data.forEach(function(userdata){ %>
+    <div class="col-md-3  col-sm-6 " >
+			<div class="thumbnail text-center">
+			<img src="<%= userdata.image %>">
+				<div class="caption">
+					  <h4><%= userdata.name %> </h4>
+				</div>
+                    <a href="/campground/<%=userdata._id %>"><button type="button" class="btn btn-primary">More</button></a>
+ 
+			</div>
+
+	</div>
+<% })%>
+ </div>
+
+
+</div>
++++++++++++++++
+body {
+  background: #f5f5f5 !important;
+  font-family: "PT Sans", sans-serif;
+  margin-bottom: 60px;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+
+.thumbnail.caption-full {
+  padding: 9px;
+}
+
+#delete-form{
+	display: inline;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.container1{
+  background: linear-gradient(rgba(70, 70, 70, 0.35), rgba(70, 70, 70, 0.35)),
+    url(https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d9df10d159cc11074d9a7996e8aca442&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 10em;
+  color: white;	
+}
+
+.row{
+	padding-top: 2em;
+
+}
+
+.card-img-top{
+	width: 100%;
+}
+
++++++++++++
+
+https://github.com/himanshup/yelpcamp/blob/master/routes/campgrounds.js
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+router.put(
+  "/:id",
+  upload.single("image"),
+  middleware.checkCampgroundOwnership,
+  function(req, res) {
+    geocoder.geocode(req.body.campground.location, function(err, data) {
+      if (err || !data.length) {
+        req.flash("error", "Invalid address");
+        return res.redirect("back");
+      }
+      req.body.campground.lat = data[0].latitude;
+      req.body.campground.lng = data[0].longitude;
+      req.body.campground.location = data[0].formattedAddress;
+      req.body.campground.booking = {
+        start: req.body.campground.start,
+        end: req.body.campground.end
+      };
+      req.body.campground.tags = req.body.campground.tags.split(",");
+      Campground.findByIdAndUpdate(
+        req.params.id,
+        req.body.campground,
+        async function(err, campground) {
+          if (err) {
+            req.flash("error", err.message);
+            res.redirect("back");
+          } else {
+            if (req.file) {
+              try {
+                await cloudinary.v2.uploader.destroy(campground.imageId);
+                var result = await cloudinary.v2.uploader.upload(
+                  req.file.path,
+                  {
+                    width: 1500,
+                    height: 1000,
+                    crop: "scale"
+                  },
+                  {
+                    moderation: "webpurify"
+                  }
+                );
+                campground.imageId = result.public_id;
+                campground.image = result.secure_url;
+              } catch (err) {
+                req.flash("error", err.message);
+                return res.render("error");
+              }
+            }
+            campground.save();
+            req.flash("success", "Successfully updated your campground!");
+            res.redirect("/campgrounds/" + req.params.id);
+          }
+        }
+      );
+    });
+  }
+);
+
+
+
++++++auction++++++++++++
+https://www.autobidmaster.com/en/carfinder-online-auto-auctions/lot/32150880/COPART_2009_AUDI_Q5_32_CERTIFICATE_OF_TITLE_LOUISVILLE_KY/    (2009_AUDI_Q5_32)
+https://www.autobidmaster.com/en/carfinder-online-auto-auctions/lot/33910570/COPART_2011_BMW_X5_XDRIVE3_CERT_OF_TITLE-SALVAGE_LOUISVILLE_KY/    (bmw x5 2011)
+https://www.autobidmaster.com/en/carfinder-online-auto-auctions/lot/30310670/COPART_2011_MERCEDES-BENZ_GL_350_BLU_CERTIFICATE_OF_TITLE_LOUISVILLE_KY/
++++++++++++++++++++++++++++
+https://www.clemson.edu/academics/programs/eportfolio/information.html
+https://www.instructure.com/portfolium/blog/6-essential-components-every-eportfolio-needs
+https://www.goshen.edu/careers/eportfolio-what-to-include/
+++++++++++++++++++++++++
+https://nku.edu/content/dam/transfer/docs/KCTCSPathways/2NKU%20Program%20Application%20Instructions.pdf
+          
+
+
+
